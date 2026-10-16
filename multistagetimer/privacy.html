@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>多段タイマー プライバシーポリシー</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid rgba(128,128,128,.4); padding-bottom: .3em; }
+  footer { margin-top: 3em; font-size: .85rem; color: gray; }
+  .en { margin-top: 4em; padding-top: 1em; border-top: 2px solid rgba(128,128,128,.4); }
+</style>
+</head>
+<body>
+<h1>「多段タイマー」プライバシーポリシー</h1>
+<p>本ポリシーは、iOS / watchOS アプリ「多段タイマー」(英語名 MultiStageTimer。以下「本アプリ」)における利用者情報の取り扱いについて定めるものです。</p>
+
+<h2>収集する情報</h2>
+<p>本アプリは、利用者の個人情報や利用状況に関する情報を一切収集しません。アクセス解析や広告のための SDK も組み込んでいません。</p>
+
+<h2>アプリ内で扱うデータについて</h2>
+<p>本アプリで作成したタイマーのシーケンス(名前、各段階の時間、通知方法や音の設定)と、実行中のタイマーの状態は、すべてお使いの端末内にのみ保存されます。これらのデータが開発者や第三者のサーバーへ送信されることはありません。</p>
+<p>iPhone と Apple Watch の間では、タイマーの開始・停止や残り時間の表示のために、Apple の WatchConnectivity の仕組みを通じてシーケンスの内容と実行状態が端末間で直接やり取りされます。この通信に開発者のサーバーは介在しません。</p>
+<p>シーケンスを「共有」機能でファイル(.mstimer)として書き出した場合、そのファイルの送付先は利用者自身が選択します。</p>
+
+<h2>利用する権限について</h2>
+<ul>
+  <li><strong>アラーム(AlarmKit)</strong>: 各段階の終了時にロック中でもアラームを鳴らすために使用します。</li>
+  <li><strong>通知</strong>: 「通知を一回だけ」や「予告」を鳴らすために使用します。</li>
+  <li><strong>ライブアクティビティ</strong>: ロック画面と Dynamic Island に残り時間を表示するために使用します。</li>
+</ul>
+<p>いずれの権限も端末内でタイマーを動作させるためにのみ使用し、これらを通じて情報を収集することはありません。</p>
+
+<h2>第三者への提供</h2>
+<p>本アプリは情報を収集しないため、第三者へ提供する情報もありません。</p>
+
+<h2>本ポリシーの変更</h2>
+<p>本ポリシーの内容は、必要に応じて予告なく変更されることがあります。変更後の内容は本ページに掲載した時点で効力を生じます。</p>
+
+<h2>お問い合わせ</h2>
+<p>本ポリシーに関するお問い合わせは、<a href="https://twitter.com/colorbox_studio">X (Twitter) @colorbox_studio</a> までお願いします。</p>
+
+<section class="en" lang="en">
+<h1>MultiStageTimer Privacy Policy</h1>
+<p>This policy describes how the iOS / watchOS app "MultiStageTimer" (Japanese name 多段タイマー, the "App") handles user information.</p>
+
+<h2>Information we collect</h2>
+<p>The App does not collect any personal information or usage data. It contains no analytics or advertising SDKs.</p>
+
+<h2>Data handled by the App</h2>
+<p>Timer sequences you create (names, stage durations, alert and sound settings) and the state of a running timer are stored only on your device. None of this data is sent to the developer or to any third-party server.</p>
+<p>Between iPhone and Apple Watch, the sequence and its running state are exchanged directly between your devices through Apple's WatchConnectivity framework so the Watch can start, stop and display the timer. No developer server is involved.</p>
+<p>When you export a sequence as a file (.mstimer) with the Share feature, you choose where that file goes.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Alarms (AlarmKit)</strong>: used to ring an alarm at the end of each stage, even while the device is locked.</li>
+  <li><strong>Notifications</strong>: used for the "notify once" and "heads-up" cues.</li>
+  <li><strong>Live Activities</strong>: used to show the remaining time on the Lock Screen and in the Dynamic Island.</li>
+</ul>
+<p>These permissions are used only to run timers on your device; no information is collected through them.</p>
+
+<h2>Sharing with third parties</h2>
+<p>Since the App collects no information, there is nothing to share with third parties.</p>
+
+<h2>Changes to this policy</h2>
+<p>This policy may be updated without prior notice. Changes take effect when posted on this page.</p>
+
+<h2>Contact</h2>
+<p>For questions about this policy, contact <a href="https://twitter.com/colorbox_studio">@colorbox_studio on X (Twitter)</a>.</p>
+</section>
+
+<footer>
+<p>制定日 / Effective date: 2026年10月16日 / October 16, 2026<br>ColorBox Studio</p>
+</footer>
+</body>
+</html>
