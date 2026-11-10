@@ -8,3 +8,4 @@ AdMob の app-ads.txt 検証用に `app-ads.txt` もこのドメイン直下で�
 - https://colorbox.github.io/hankaku/privacy.html … ハンカク プライバシーポリシー
 - https://colorbox.github.io/copypaste/privacy.html … コピペ! プライバシーポリシー
 - https://colorbox.github.io/multistagetimer/privacy.html … 多段タイマー プライバシーポリシー
+- https://colorbox.github.io/memory_multi_view/privacy.html … 思い出マルチビュー プライバシーポリシー
